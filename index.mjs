@@ -3,9 +3,9 @@
 import SmeeClient from 'smee-client';
 import { execFile } from 'child_process';
 
-process.on('SIGINT', () =>process.exit());
+process.on('SIGINT', () => process.exit());
 
-if(!process.env.SMEE_URL || !process.env.REPO_URL) {
+if (!process.env.SMEE_URL || !process.env.REPO_URL) {
   console.error('Missing required environment variables');
   process.exit();
 }
