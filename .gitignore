@@ -1,0 +1,5 @@
+node_modules
+deploy_rsa
+deploy_rsa.pub
+ssh_known_hosts
+local.env
